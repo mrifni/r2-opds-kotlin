@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-opds-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-opds-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-opds/r2-opds-kotlin.r2-opds.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-opds/r2-opds-kotlin.r2-opds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/299808576/r2-opds-kotlin.r2-shared.iml" filepath="$PROJECT_DIR$/.idea/modules/299808576/r2-opds-kotlin.r2-shared.iml" />
     </modules>
   </component>
 </project>
