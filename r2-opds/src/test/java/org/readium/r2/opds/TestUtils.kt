@@ -9,9 +9,25 @@
 
 package org.readium.r2.opds
 
+import org.json.JSONArray
+import org.json.JSONObject
+import org.junit.Assert
 import java.io.File
-import java.io.InputStream
 import java.net.URL
+
+/**
+ * Asserts that two [JSONObject] are equal.
+ */
+fun assertJSONEquals(expected: JSONObject, actual: JSONObject) {
+    Assert.assertEquals(expected.toString(), actual.toString())
+}
+
+/**
+ * Asserts that two [JSONArray] are equal.
+ */
+fun assertJSONEquals(expected: JSONArray, actual: JSONArray) {
+    Assert.assertEquals(expected.toString(), actual.toString())
+}
 
 class Fixtures(val path: String? = null) {
 
